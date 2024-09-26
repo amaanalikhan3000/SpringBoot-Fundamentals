@@ -3,7 +3,7 @@ package com.aak.journalApp.controller;
 
 /* Special types of classes and components which handles
 http request using post,put delete and get */
-
+/*
 import com.aak.journalApp.entity.JournalEntry;
 import org.springframework.web.bind.annotation.*;
 
@@ -51,3 +51,4 @@ public class JournalEntryController {
 
 
 }
+*/
