@@ -41,6 +41,7 @@ MongoDB doesn’t support foreign key relationships natively like traditional SQ
    spring.data.mongodb.host=localhost
    spring.data.mongodb.port=27017
    spring.data.mongodb.database=mydatabase
+   auto-index-creation: true
    ```
 
 3. Run the application
