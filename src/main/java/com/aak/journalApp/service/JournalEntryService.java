@@ -37,7 +37,7 @@ public class JournalEntryService {
             JournalEntry saved = journalEntryRepo.save(journalEntry);
 
             user.getJournalEntries().add(saved);
-            user.setUserName(null);
+
             userService.saveEntry(user);
         }
         catch (Exception e){
